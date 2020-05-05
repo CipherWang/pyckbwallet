@@ -1,0 +1,3 @@
+[submodule "ethereum-bip44-python"]
+	path = ethereum-bip44-python
+	url = https://github.com/michailbrynard/ethereum-bip44-python.git

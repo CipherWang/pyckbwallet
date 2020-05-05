@@ -3,11 +3,11 @@
 
 
 import segwit_addr as sa
-import hashlib
+from hashlib import blake2b
 import unittest
 
 def ckbhash(msg):
-    hasher = hashlib.blake2b(digest_size=32, person=b'ckb-default-hash')
+    hasher = blake2b(digest_size=32, person=b'ckb-default-hash')
     hasher.update(msg)
     return hasher.hexdigest()
 

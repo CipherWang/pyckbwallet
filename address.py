@@ -2,7 +2,7 @@
 # cipher@nervos.org
 
 
-import segwit_addr as sa
+from . import segwit_addr as sa
 from hashlib import blake2b
 import unittest
 

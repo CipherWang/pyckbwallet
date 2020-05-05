@@ -1,5 +1,5 @@
-from ethbip44.crypto import HDPrivateKey, HDPublicKey, HDKey
-from address import generateShortAddress, CODE_INDEX_SECP256K1_SINGLE, ckbhash
+from .ethbip44.crypto import HDPrivateKey, HDPublicKey, HDKey
+from .address import generateShortAddress, CODE_INDEX_SECP256K1_SINGLE, ckbhash
 from Crypto.Cipher import AES
 from hashlib import sha256
 salt = "3820e08ad6eb90c900f2cdc76892a"
